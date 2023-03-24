@@ -1,0 +1,276 @@
+{
+    "meta": {
+        "request_id": "4nyzyiwgZ5J1GEBQWhW4mr22s0qRHWgp",
+        "schedule_id": "634499f4df2ef83f01dbd7c38c8bde7be5a3efba5cf534353af3cd8090a55494",
+        "status_code": "SUCCESS",
+        "query": {
+            "start_date": "2023-02-01",
+            "end_date": "2023-02-28",
+            "ds_accounts": [
+                "18ce54jwjlo",
+                "18ce54m2aqv",
+                "18ce54otfid",
+                "18ce54otfgs",
+                "18ce54otfl6"
+            ],
+            "ds_segments": [],
+            "fields": [
+                {
+                    "id": "account",
+                    "field_id": "account",
+                    "field_name": "Account",
+                    "field_type": "dim",
+                    "field_split": "row",
+                    "data_type": "string.text.value",
+                    "data_column": 0,
+                    "visible": true
+                },
+                {
+                    "id": "campaign_name",
+                    "field_id": "campaign_name",
+                    "field_name": "Campaign",
+                    "field_type": "dim",
+                    "field_split": "row",
+                    "data_type": "string.text.value",
+                    "data_column": 1,
+                    "visible": true
+                },
+                {
+                    "id": "yearmonth",
+                    "field_id": "yearmonth",
+                    "field_name": "Month",
+                    "field_type": "dim",
+                    "field_split": "row",
+                    "data_type": "string.time.yearmonth",
+                    "data_column": 2,
+                    "visible": true
+                },
+                {
+                    "id": "campaign_start_time",
+                    "field_id": "campaign_start_time",
+                    "field_name": "Campaign start time",
+                    "field_type": "dim",
+                    "field_split": "row",
+                    "data_type": "string.time.date",
+                    "data_column": 3,
+                    "visible": true
+                },
+                {
+                    "id": "campaign_end_time",
+                    "field_id": "campaign_end_time",
+                    "field_name": "Campaign end time",
+                    "field_type": "dim",
+                    "field_split": "row",
+                    "data_type": "string.time.date",
+                    "data_column": 4,
+                    "visible": true
+                },
+                {
+                    "id": "line_item_objective",
+                    "field_id": "line_item_objective",
+                    "field_name": "Campaign objective",
+                    "field_type": "dim",
+                    "field_split": "row",
+                    "data_type": "string.text.value",
+                    "data_column": 5,
+                    "visible": true
+                },
+                {
+                    "id": "campaign_total_budget_amount",
+                    "field_id": "campaign_total_budget_amount",
+                    "field_name": "Campaign total budget",
+                    "field_type": "dim",
+                    "field_split": "row",
+                    "data_type": "float.currency.value",
+                    "data_column": 6,
+                    "visible": true
+                },
+                {
+                    "id": "line_item_name",
+                    "field_id": "line_item_name",
+                    "field_name": "Ad group",
+                    "field_type": "dim",
+                    "field_split": "row",
+                    "data_type": "string.text.value",
+                    "data_column": 7,
+                    "visible": true
+                },
+                {
+                    "id": "impressions",
+                    "field_id": "impressions",
+                    "field_name": "Impressions",
+                    "field_type": "met",
+                    "field_split": "row",
+                    "data_type": "int.number.value",
+                    "data_column": 8,
+                    "visible": true
+                },
+                {
+                    "id": "cost_usd",
+                    "field_id": "cost_usd",
+                    "field_name": "Cost (USD)",
+                    "field_type": "met",
+                    "field_split": "row",
+                    "data_type": "float.currency.value",
+                    "data_column": 9,
+                    "visible": true
+                },
+                {
+                    "id": "CPM",
+                    "field_id": "CPM",
+                    "field_name": "CPM",
+                    "field_type": "met",
+                    "field_split": "row",
+                    "data_type": "float.currency.value",
+                    "data_column": 10,
+                    "visible": true
+                },
+                {
+                    "id": "mediaViews",
+                    "field_id": "mediaViews",
+                    "field_name": "Media views",
+                    "field_type": "met",
+                    "field_split": "row",
+                    "data_type": "int.number.value",
+                    "data_column": 11,
+                    "visible": true
+                },
+                {
+                    "id": "mediaViewRate",
+                    "field_id": "mediaViewRate",
+                    "field_name": "Media view rate",
+                    "field_type": "met",
+                    "field_split": "row",
+                    "data_type": "float.number.ratio",
+                    "data_column": 12,
+                    "visible": true
+                },
+                {
+                    "id": "media_engagements",
+                    "field_id": "media_engagements",
+                    "field_name": "Media engagements",
+                    "field_type": "met",
+                    "field_split": "row",
+                    "data_type": "int.number.value",
+                    "data_column": 13,
+                    "visible": true
+                },
+                {
+                    "id": "conversions",
+                    "field_id": "conversions",
+                    "field_name": "Conversions",
+                    "field_type": "met",
+                    "field_split": "row",
+                    "data_type": "int.number.value",
+                    "data_column": 14,
+                    "visible": true
+                },
+                {
+                    "id": "clicks",
+                    "field_id": "clicks",
+                    "field_name": "Clicks",
+                    "field_type": "met",
+                    "field_split": "row",
+                    "data_type": "int.number.value",
+                    "data_column": 15,
+                    "visible": true
+                },
+                {
+                    "id": "CTR",
+                    "field_id": "CTR",
+                    "field_name": "CTR",
+                    "field_type": "met",
+                    "field_split": "row",
+                    "data_type": "float.number.ratio",
+                    "data_column": 16,
+                    "visible": true
+                },
+                {
+                    "id": "CPC",
+                    "field_id": "CPC",
+                    "field_name": "CPC",
+                    "field_type": "met",
+                    "field_split": "row",
+                    "data_type": "float.currency.value",
+                    "data_column": 17,
+                    "visible": true
+                },
+                {
+                    "id": "engagements",
+                    "field_id": "engagements",
+                    "field_name": "Engagements",
+                    "field_type": "met",
+                    "field_split": "row",
+                    "data_type": "int.number.value",
+                    "data_column": 18,
+                    "visible": true
+                },
+                {
+                    "id": "CPE",
+                    "field_id": "CPE",
+                    "field_name": "CPE",
+                    "field_type": "met",
+                    "field_split": "row",
+                    "data_type": "float.currency.value",
+                    "data_column": 19,
+                    "visible": true
+                },
+                {
+                    "id": "promoted_video_total_views",
+                    "field_id": "promoted_video_total_views",
+                    "field_name": "Views",
+                    "field_type": "met",
+                    "field_split": "row",
+                    "data_type": "int.number.value",
+                    "data_column": 20,
+                    "visible": true
+                },
+                {
+                    "id": "promoted_video_views_75",
+                    "field_id": "promoted_video_views_75",
+                    "field_name": "Views (25% complete)",
+                    "field_type": "met",
+                    "field_split": "row",
+                    "data_type": "int.number.value",
+                    "data_column": 21,
+                    "visible": true
+                },
+                {
+                    "id": "CPV",
+                    "field_id": "CPV",
+                    "field_name": "Cost per video view",
+                    "field_type": "met",
+                    "field_split": "row",
+                    "data_type": "float.currency.value",
+                    "data_column": 22,
+                    "visible": true
+                }
+            ],
+            "compare_type": null,
+            "compare_show": null,
+            "compare_start_date": null,
+            "compare_end_date": null,
+            "settings": {
+                "blanks_to_zero": true,
+                "include_publisher_network": true,
+                "allow_sum_unique": true,
+                "round_metrics_to": 4,
+                "no_json_keys": true
+            },
+            "cache_minutes": null
+        },
+        "result": {
+            "total_columns": 0,
+            "total_rows": 0,
+            "run_seconds": 50.519,
+            "data_sampled": null,
+            "cache_used": false,
+            "cache_time": null
+        },
+        "paginate": {
+            "prev": null,
+            "next": null
+        }
+    },
+    "data": []
+}

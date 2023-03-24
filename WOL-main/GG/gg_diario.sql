@@ -1,0 +1,3 @@
+
+INSERT INTO `DBCLARO`.`GG_CAMPANA_AT` (`Fecha_insert`, `Account ID`, `Account`, `Campaign name`, `Campaign status`, `Bidding strategy type`, `Year & month`, `Start date`, `End date`, `Impressions`, `Clicks`, `Cost`, `Cost (USD)`, `CTR`, `CPC`, `CPM`, `Budget`, `Daily budget`, `Return on ad spend (ROAS)`, `Cost per video view`, `Video views`, `Watch 75% views`, `Conversions`, `Conversion rate`, `Cost per conversion`, `Impression share`, `Search impression share`) 
+VALUES ('2023-03-03', '0', '1', '2', '3', '4', '5', '6', '7', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26');
